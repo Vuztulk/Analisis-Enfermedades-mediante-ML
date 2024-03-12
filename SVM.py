@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 df_train = pd.read_csv('blood_samples.csv')
 df_test = pd.read_csv('blood_samples_test.csv')
 
-X_train = df_train.drop('Disease', axis=1)  # Características
+X_train = df_train.drop('Disease', axis=1)  # Caracteristicas
 y_train = df_train['Disease']  # Etiquetas
 
 X_test = df_test.drop('Disease', axis=1)
